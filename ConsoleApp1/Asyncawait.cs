@@ -9,13 +9,13 @@ namespace ConsoleApp1
 {
     public class Asyncawait
     {
-        static  void Main(string[] args)
-        {
-            Console.WriteLine("task start");
-            Start();
-            Console.WriteLine();
-            Console.ReadLine();
-        }
+        //static  void Main(string[] args)
+        //{
+        //    Console.WriteLine("task start");
+        //    Start();
+        //    Console.WriteLine();
+        //    Console.ReadLine();
+        //}
 
         static async  void  Start()
         {

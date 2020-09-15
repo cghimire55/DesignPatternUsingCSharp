@@ -111,7 +111,6 @@ namespace ConsoleApp1.Service
         }
         private static void AddAttendance(DailyAttendance item, string userId, string EmployeeCodeById, IDbConnection conn, IDbTransaction trans)
         {
-
             var insertQuery = string.Empty;
             insertQuery = $@"insert into Attendances (AttendanceDateFrom,AttendanceDateFromBS,AttendanceDateTo,AttendanceDateToBS,RequestDate,RequestDateBS,EmpCode,UserId,LogTime,Remarks,
             Direction,Status,Source,RecommendStatus,RecommendRemarks,Recommend2Status,Recommend2Remarks,LoginRequestIP,LoginMACAddress,MapLocation,CreatedDate,CreatedBy)
